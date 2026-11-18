@@ -1,0 +1,18 @@
+{
+  "colors": {
+    "Outer\u00a0Ring": "rgba(209, 188, 255, 0.95)",
+    "Inner\u00a0Ring": "rgba(209, 188, 255, 0.95)",
+    "Inner\u00a0Ring\u3014active\u3015": "rgba(209, 188, 255, 0)",
+    "Arrow": "rgba(122, 77, 232, 1)",
+    "Connector": "rgba(209, 188, 255, 0.95)",
+    "Separator": "rgba(150, 110, 255, 0.4)",
+    "Wedge": "rgba(209, 188, 255, 0.2)",
+    "Center\u00a0Circle": "rgba(255, 255, 255, 0.28)",
+    "Items\u00a0Circles": "rgba(255, 255, 255, 0.14)",
+    "Items\u00a0Circles\u00a0Border": "rgba(209, 188, 255, 0.45)",
+    "Items\u00a0Circles\u00a0Border\u3014hovered\u3015": "rgba(209, 188, 255, 1)",
+    "Items\u00a0Circles\u00a0Clicked": "rgba(209, 188, 255, 0.35)",
+    "Icons": "rgba(60, 0, 144, 1)",
+    "Text": "rgba(60, 0, 144, 1)"
+  }
+}

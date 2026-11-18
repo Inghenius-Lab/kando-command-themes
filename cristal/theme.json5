@@ -1,0 +1,64 @@
+//////////////////////////////////////////////////////////////////////////////////////////
+//   _  _ ____ _  _ ___  ____                                                           //
+//   |_/  |__| |\ | |  \ |  |    This file belongs to Kando, the cross-platform         //
+//   | \_ |  | | \| |__/ |__|    pie menu. Read more on github.com/kando-menu/kando     //
+//                                                                                      //
+//////////////////////////////////////////////////////////////////////////////////////////
+
+// SPDX-FileCopyrightText: Discord user digitalart3d
+// SPDX-FileCopyrightText: Elfi Ox <https://github.com/elfi-ox>
+// SPDX-License-Identifier: CC-BY-4.0
+{
+  name: 'Cristal HUD',
+  author: 'Elemental',
+  license: 'CC-BY-4.0',
+  themeVersion: '3.1',
+
+  // This theme was created for Kando's theme engine version 1. Kando will use this to
+  // check if the theme is compatible with the current version of Kando.
+  engineVersion: 1,
+
+  // When a menu is opened too close to a screen's edge, it is moved away from the edge
+  // by this amount of pixels.
+  maxMenuRadius: 160,
+
+  // The width at which the center text is wrapped.
+  centerTextWrapWidth: 95,
+
+  // This theme draws child items below their parent items.
+  drawChildrenBelow: true,
+
+  // Draw the circle segment of the hovered menu item.
+  drawWedgeSeparators: true,
+
+  // Draw the thin lines between adjacent menu items.
+  drawSelectionWedges: true,
+
+  // These colors can be configured by the user and are vailable in the CSS file as CSS
+  // variables. The default values are used if the user does not provide any values.
+  colors: {
+    'Outer Ring': 'rgba(209, 188, 255, 0.95)',
+    'Inner Ring': 'rgba(209, 188, 255, 0.95)',
+    'Inner Ring〔active〕': 'rgba(209, 188, 255, 0)',
+    'Arrow': 'rgba(122, 77, 232, 1)',
+    'Connector': 'rgba(209, 188, 255, 0.95)',
+    'Separator': 'rgba(150, 110, 255, 0.4)',
+    'Wedge': 'rgba(209, 188, 255, 0.2)',  
+    'Center Circle': 'rgba(255, 255, 255, 0.28)',  
+    'Items Circles': 'rgba(255, 255, 255, 0.14)',    
+    'Items Circles Border': 'rgba(209, 188, 255, 0.45)',  
+    'Items Circles Border〔hovered〕': 'rgba(209, 188, 255, 1)',
+    'Items Circles Clicked': 'rgba(209, 188, 255, 0.35)',  
+    'Icons': 'rgba(60, 0, 144, 1)',  
+    'Text': 'rgba(60, 0, 144, 1)',  
+  },
+
+  // This is a very complex theme with multiple layers.
+  layers: [
+    { class: 'ring-fast-layer', content: 'none' },
+    { class: 'ring-slow-layer', content: 'none' },
+    { class: 'frost-layer', content: 'none' },
+    { class: 'icon-layer', content: 'icon' },
+    { class: 'arrow-layer', content: 'none' },
+  ],
+}

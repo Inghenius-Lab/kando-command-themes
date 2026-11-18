@@ -1,0 +1,18 @@
+{
+  "colors": {
+    "Outer\u00a0Ring": "#00e0b2",
+    "Inner\u00a0Ring": "#00e0b2",
+    "Inner\u00a0Ring\u3014active\u3015": "#00e0b2",
+    "Arrow": "#00e0b2",
+    "Connector": "#00e0b2",
+    "Separator": "#86948d",
+    "Wedge": "#00e0b2",
+    "Center\u00a0Circle": "transparent",
+    "Items\u00a0Circles": "transparent",
+    "Items\u00a0Circles\u00a0Border": "transparent",
+    "Items\u00a0Circles\u00a0Border\u3014hovered\u3015": "#00e0b2",
+    "Items\u00a0Circles\u00a0Clicked": "transparent",
+    "Icons": "#00382a",
+    "Text": "#d8e6de"
+  }
+}
